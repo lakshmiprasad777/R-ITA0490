@@ -1,0 +1,6 @@
+matrix_5x4 <- matrix(1:20, nrow = 5, ncol = 4, byrow = TRUE)
+print(matrix_5x4)
+matrix_3x3 <- matrix(1:9, nrow = 3, ncol = 3, byrow = TRUE)
+rownames(matrix_3x3) <- c("Row1", "Row2", "Row3")
+colnames(matrix_3x3) <- c("Col1", "Col2", "Col3")
+print(matrix_3x3)
