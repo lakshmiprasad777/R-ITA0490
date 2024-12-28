@@ -1,0 +1,6 @@
+numeric_vector <- c(10.5, 20.7, 30.9, 40.2, 50.3)
+character_vector <- c("Alice", "Bob", "Charlie", "David", "Eva")
+logical_vector <- c(TRUE, FALSE, TRUE, TRUE, FALSE)
+print(numeric_vector)
+print(character_vector)
+print(logical_vector)
