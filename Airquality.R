@@ -1,0 +1,5 @@
+data("airquality")
+summary(airquality)
+library(reshape2)
+long_airquality <- melt(airquality, id.vars = c("Month", "Day"))
+head(long_airquality)
